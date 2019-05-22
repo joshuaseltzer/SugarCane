@@ -5,8 +5,8 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = SugarCane
 SugarCane_FILES = Tweak.xm
 
-THEOS_PACKAGE_BASE_VERSION = 1.0.1
-_THEOS_INTERNAL_PACKAGE_VERSION = 1.0.1
+THEOS_PACKAGE_BASE_VERSION = 1.0.0-cobra2168
+_THEOS_INTERNAL_PACKAGE_VERSION = 1.0.0-cobra2168
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
