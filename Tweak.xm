@@ -24,7 +24,7 @@
 		orig.percentLabel.translatesAutoresizingMaskIntoConstraints = NO;
 		[orig.percentLabel.centerXAnchor constraintEqualToAnchor:self.centerXAnchor].active = YES;
 		[orig.percentLabel.centerYAnchor constraintEqualToAnchor:self.centerYAnchor].active = YES;
-		orig.percentLabel.font = [UIFont boldSystemFontOfSize:16];
+		orig.percentLabel.font = [UIFont systemFontOfSize:12.0];
 		return orig;
 	}
 
