@@ -1,15 +1,17 @@
+#import <UIKit/UIKit.h>
+
 @interface CALayer (Private)
-	@property (nonatomic, assign) BOOL allowsGroupOpacity;
-	@property (nonatomic, assign) BOOL allowsGroupBlending;
+@property (nonatomic, assign) BOOL allowsGroupOpacity;
+@property (nonatomic, assign) BOOL allowsGroupBlending;
 @end
 
 @interface CCUIBaseSliderView : UIView
-	- (float)value;
-	@property (assign,getter=isGlyphVisible,nonatomic) BOOL glyphVisible;
+- (float)value;
+@property (assign,getter=isGlyphVisible,nonatomic) BOOL glyphVisible;
 @end
 
 @interface CCUIContinuousSliderView : CCUIBaseSliderView
-	@property (nonatomic, retain) UILabel *percentLabel;
+@property (nonatomic, retain) UILabel *percentLabel;
 @end
 
 %hook CCUIContinuousSliderView
